@@ -119,7 +119,6 @@ $(document).ready(function () {
     let checked = "fa fa-check-circle mark";
     let unchecked = "fa fa-circle-thin";
 
-    // Save the current index of button after the click event in the "left" div.
     let index_click = $("li .check_button").index(this);
     // Use the current index of button to target the correct "li p" in the "right" div.
     let linethrough_text = $("li .right").eq(index_click).find("p");
