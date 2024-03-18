@@ -120,7 +120,7 @@ $(document).ready(function () {
     let unchecked = "fa fa-circle-thin";
 
     let index_click = $("li .check_button").index(this);
-    // Use the current index of button to target the correct "li p" in the "right" div.
+
     let linethrough_text = $("li .right").eq(index_click).find("p");
 
     if (button.hasClass(unchecked)) {
